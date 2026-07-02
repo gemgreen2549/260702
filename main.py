@@ -47,7 +47,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown('<h1 class="main-title">🔮 MBTI 포켓몬 연구소</h1>', unsafe_allow_html=True)
-st.markdown('<p class="sub-title">나의 MBTI 유형과 딱 맞는 포켓몬 파트너와 천직을 찾아보세요!</p>', HTML=True)
+st.markdown('<p class="sub-title">나의 MBTI 유형과 딱 맞는 포켓몬 파트너와 천직을 찾아보세요!</p>', unsafe_allow_html=True)
 
 # 2. MBTI 데이터셋 구성 (포켓몬 이미지 번호, 이름, 수식어, 추천 직업 3개)
 # 공식 포켓몬 셔플 이미지 번호 활용
